@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: lightgray;
+  /* padding: 10px 10px 10px 10px; */
+  padding: 10px;
+  display: flex;
+}
+.card {
+  margin: 30px 80px;
+  padding: 5px 5px 50px 5px; 
+  width: 312px;
+  /* height: 600px; */
+  background-color: white;
+  border-radius: 10px;
+}
+.image {
+  padding: 5px;
+}
+.image img {
+  border-radius: 10px;
+  width: 300px;
+}
+.capsules {
+  padding: 25px 0px 20px 20px;
+}
+.capsules span {
+  color: darkgray;
+  padding: 7px 15px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+.content {
+  padding: 10px;
+}
+.content h2 {
+  padding: 0px 0px 10px 0px;
+}
+.content p {
+  color: darkgray;
+  font-size: medium;
+}
+.button {
+  text-align: center;
+}
+.button button {
+  padding: 10px 30px;
+  border: 1px solid black;
+  border-radius: 25px;
+  color: rgb(7, 86, 189);
+  background-color: rgb(205, 244, 247);
+  border: none;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+.button button:hover {
+  color: aqua;
+  background-color: black;
+}

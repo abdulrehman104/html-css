@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selector</title>
+    <style>
+      /* ELEMENT SELECTOR */
+      div {
+        background-color: yellow;
+      }
+      /* CLASS SELECTOR  */
+      .red {
+        background-color: red;
+      }
+      /* ID SELECTOR */
+      #green {
+        background-color: green;
+      }
+
+      /* CHILD SELECTOR */
+      div > p {
+        color: blue;
+        background-color: brown;
+      }
+      /* DESCENDANT SELECTOR  */
+      div p {
+        color: aqua;
+        background-color: palevioletred;
+      }
+      /* universal selector  */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* PSEUDO SELECTOR   */
+      a:visited {
+        color: rgb(87, 54, 54);
+      }
+      a:link {
+        color: green;
+      }
+      a:active {
+        background-color: red;
+      }
+      a:hover {
+        background-color: blue;
+      }
+
+      p:first-child {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>First child</p>
+      <p>Second Child</p>
+    </div>
+    -->
+    <!-- /* ELEMENT SELECTOR */ -->
+    <div>I am a div</div>
+
+    <!-- /* CLASS SELECTOR */ -->
+    <div class="red">I am a div</div>
+
+    <!-- /* ID SELECTOR */ -->
+    <div id="green">I am a div</div>
+
+    /* CHILD SELECTOR */
+    <div id="green">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt,
+        nesciunt!
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt,
+        nesciunt!
+      </p>
+    </div>
+    ismn article a gya to ab ye child selector mn nhi ayega uske scc ismn add
+    nhi hoge
+
+    <div>
+      <article>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+          officiis?
+        </p>
+      </article>
+    </div>
+
+    <a href="https://www.instagram.com">Instagram</a>
+    <a href="https://twitter.com/home"> Go to Twitter</a>
+    <a href="https://wwww.facebook.com"> Go to facebook</a>
+    <a href="https://www.instagram.com/"> Go to Instagram</a>
+  </body>
+</html>
