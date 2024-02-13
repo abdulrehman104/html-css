@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NavBar</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --navbar-color: aquamarine;
+        --Home-color: rgb(233, 113, 113);
+        --Features-color: rgb(240, 240, 115);
+        --Services-color: rgb(238, 102, 238);
+        --Outwork-color: rgb(65, 238, 65);
+      }
+      nav {
+        background-color: rgb(77, 65, 65);
+        /* padding: 10px 0; */
+        width: 900px;
+        /* text-align: center; */
+        margin: 0px auto;
+      }
+      nav ul {
+        list-style-type: none;
+      }
+      nav ul li {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+      }
+      .navbar {
+        margin: 0px 330px 0px 0px;
+        padding: 20px 20px;
+        background-color: var(--navbar-color);
+      }
+      .Home {
+        padding: 20px 20px;
+        background-color: var(--Home-color);
+      }
+      .Features {
+        padding: 20px 20px;
+        background-color: var(--Features-color);
+      }
+      .Services {
+        padding: 20px 20px;
+        background-color: var(--Services-color);
+      }
+      .OurWork {
+        padding: 20px 20px;
+        background-color: var(--Outwork-color);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="navbar">NavBar</li>
+        <li class="Home">Home</li>
+        <li class="Features">Features</li>
+        <li class="Services">Services</li>
+        <li class="OurWork">OurWork</li>
+      </ul>
+    </nav>
+  </body>
+</html>
