@@ -22,6 +22,8 @@ Here are some key concepts and features of Flexbox:
 
 Overall, Flexbox provides a powerful and intuitive way to create complex layouts with CSS, making it easier to build responsive and dynamic web designs.
 
+![alt text](image-8.png)
+
 # **_Container Properties_**
 
 # Dispay Flex
