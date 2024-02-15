@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid</title>
+    <style>
+      .container {
+        width: 80vw;
+        /* height: 100vh; */
+        border: 2px solid black;
+        display: grid;
+        /* grid-template-areas:
+          "nav nav nav "
+          "side article article "
+          "footer footer footer"; */
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(5, minmax(20px, ifr));
+        /* gap: 30px; */
+        row-gap: 30px;
+        columns: 30px;
+      }
+      .item {
+        border: 1px solid red;
+        height: 55px;
+        width: 55px;
+      }
+      /* .item-1 {
+        grid-area: nav;
+        background-color: aqua;
+      }
+      .item-2 {
+        grid-area: side;
+        background-color: rgb(202, 88, 174);
+      }
+      .item-3 {
+        grid-area: article;
+        background-color: rgb(53, 192, 34);
+      }
+      .item-4 {
+        grid-area: footer;
+        background-color: #db3450;
+      } */
+      /* overlap krke 1 pr chala jayega  */
+      /* .item-5 {
+        grid-area: nav;
+        background-color: rgb(44, 35, 175); */
+      /* } */
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="item item-1">1</div>
+      <div class="item item-2">2</div>
+      <div class="item item-3">3</div>
+      <div class="item item-4">4</div>
+      <div class="item item-5">5</div>
+    </div>
+  </body>
+</html>
