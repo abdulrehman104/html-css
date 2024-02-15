@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float Clear</title>
+    <style>
+      img {
+        float: right;
+      }
+      .cards {
+        border: 2px solid black;
+        display: flow-root;
+      }
+      .card {
+        border: 2px solid red;
+      }
+      .card:nth-child(3) {
+        background-color: aquamarine;
+        /* clear: left;
+        clear: right; */
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cards">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRECwmYjJr3qYmnxwVgUT3xsbK3OstXEP7L9A&usqp=CAU"
+        alt=""
+        width="230px"
+      />
+      <div class="card">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ut
+          voluptas non quia, excepturi, porro iure aliquid cupiditate libero
+          quibusdam dolorem atque temporibus blanditiis architecto ab
+          reprehenderit possimus. Qui doloribus quam similique recusandae
+          molestias!
+        </p>
+      </div>
+      <div class="card">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsa
+        eligendi dolorum excepturi tenetur atque temporibus vero vel laboriosam
+        totam eum corporis aliquam deserunt repudiandae perspiciatis voluptas
+        sequi veniam modi, recusandae nihil hic, rem blanditiis quia. Similique
+        nemo natus itaque. Numquam, necessitatibus aliquid. Perspiciatis
+        inventore natus quod corporis, veritatis quidem magni facilis architecto
+        et fugit ullam sint ipsam rem sit quam eum laudantium quis nisi
+        laboriosam ut possimus aperiam ipsa. Aperiam sit ullam architecto rerum
+        qui eum distinctio voluptas culpa eveniet saepe aut esse fugit quisquam
+        hic eaque iste facilis, autem ut porro aspernatur iure dolores
+        cupiditate? Quasi ex numquam, optio, asperiores neque, cupiditate magni
+        commodi accusantium incidunt reprehenderit tempora veniam autem
+        repudiandae delectus esse quia? Minima aliquam assumenda ducimus, totam
+        laboriosam officiis libero animi obcaecati perferendis accusamus sed
+        ipsam quam nulla dolorum enim corporis consectetur at, hic blanditiis.
+        Expedita consequuntur debitis laudantium distinctio earum at, cumque
+        totam mollitia quaerat eligendi corrupti incidunt minima beatae suscipit
+        temporibus! Veniam odit ipsam at quam perspiciatis sapiente aliquid?
+        Voluptatum est dolores laborum neque voluptatibus nemo sapiente
+        pariatur, harum, aliquid earum consequatur adipisci hic accusantium
+        voluptates beatae quod facilis. Voluptas a ab numquam veniam aspernatur
+        dolorum amet tempora eligendi! Magni, repudiandae. Molestiae atque esse
+        quos quis rerum aut voluptates! Consequatur dolor, blanditiis velit
+        reiciendis eveniet id culpa excepturi ipsa.
+      </div>
+      <div class="card">Card 3</div>
+    </div>
+  </body>
+</html>

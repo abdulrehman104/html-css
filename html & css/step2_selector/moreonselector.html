@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More on selector</title>
+    <style>
+      /* .boxes:first-child {
+        background-color: aquamarine;
+      }
+      .box:first-child {
+        background-color: red;
+      }
+      .box::first-line {
+        color: blueviolet;
+      } */
+/* 
+      .boxes * {
+        color: blue;
+        border: 2px solid black;
+      } */
+
+      /* attribute  */
+      /* [data-color="primary"] {
+        margin-top: 45px;
+        padding: 45px;
+      } */
+
+      /* group  */
+      /* p,
+      a,
+      box,
+      [data-color="primary"] {
+        margin-top: 45px;
+        padding: 45px;
+      } */
+
+      /* nth child  */
+      /* .box:nth-child(even) {
+        background-color: blue;
+      }
+      .box:nth-child(1) {
+        background-color: blueviolet;
+      } */
+
+      /* Dynamically insert  */
+      /* PSEUDIO ELEMENT  */
+      /* .boxes::before {
+        content: "Abdul Is good";
+        color: blueviolet;
+      }
+      .boxes::after {
+        content: "Rehmab Is good";
+        color: brown;
+      } */
+
+      /* LIST SELECTION  */
+      /* ::selection {
+        background-color: black;
+        color: red;
+      }
+      ::selection {
+        background-color: black;
+        color: aqua;
+      } */
+
+      /*  For First Letter  */
+      .box::first-letter {
+        color: blueviolet;
+      }
+      input::placeholder {
+        color: red;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div data-color="primary" class="box">Hey I am a box</div>
+      <div class="box">Hey I am a box</div>
+      <div class="box">Hey I am a box</div>
+      <input type="text" placeholder="name" />
+    </div>
+  </body>
+</html>
