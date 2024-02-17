@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url("/images/bg.jpg");
+  object-position: center center;
+  width: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 644px;
+  position: relative;
+}
+
+.main .box {
+  height: 644px;
+  width: 100%;
+  position: absolute;
+  opacity: 0.69;
+  top: 0;
+  background-color: black;
+}
+
+nav {
+  max-width: 60vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+nav img {
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+
+.hero > :nth-child(1) {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.sepration {
+  height: 12px;
+  background-color: rgb(35, 35, 35);
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-red {
+  background-color: red;
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-red-sm {
+  background-color: red;
+  padding: 15px 25px;
+  font-size: x-large;
+  border-radius: 5px;
+  border: none;
+}
+
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 14px;
+}
+
+.main input {
+    font-size: 10px;
+    padding: 13px 114px;
+    border-radius: 5px;
+    background: rgba(23,23,23,0.6);
+}
